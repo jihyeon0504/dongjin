@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(주)동진전기통신</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js/common.js"></script>
+</head>
+
+<body>
+    <div class="site">
+        <!-- header -->
+        <header id="header">
+            <!-- pc-header -->
+            <div class="header">
+                <div class="inner">
+                    <h1 class="logo"><a href="#"></a></h1>
+                    <nav class="nav">
+                        <ul class="depth1">
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">조직도</a></li>
+                            <li><a href="#">솔루션</a>
+                                <ul class="depth2">
+                                    <li><a href="#">컨테인먼트 솔루션</a></li>
+                                    <li><a href="#">SCACS 시스템</a></li>
+                                    <li><a href="#">통합배선</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업실적</a></li>
+                            <li><a href="#">보유인증</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- 모바일헤더 -->
+            <div class="mobileHeader">
+                <h2 class="logo"><a href="#"></a></h2>
+                <div class="mBtn">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </div>
+                <nav class="lnb">
+                    <div class="inner">
+                        <ul class="mlnb">
+                            <li> <a href="#" class="depth"><span>회사소개</span> <i></i></a></li>
+                            <li> <a href="#" class="depth"><span>조직도</span> <i></i></a></li>
+                            <li> <a href="#" class="depth"><span>솔루션</span> <i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">컨테인먼트 솔루션</a></li>
+                                    <li><a href="#">SCACS 시스템</a></li>
+                                    <li><a href="#">통합배선</a></li>
+                                </ul>
+                            </li>
+                            <li> <a href="#" class="depth"><span>사업실적</span> <i></i></a></li>
+                            <li> <a href="#" class="depth"><span>보유인증</span> <i></i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <script>
+            $(function () {
+                $(".header").addClass('fixed');
+                $('.nav .depth1 > li:nth-child(2) > a').addClass('act');
+            });
+        </script>
+        <!-- main -->
+        <main>
+            <!-- 위치 -->
+            <section id="visual" class="subVisual organization">
+                <div class="areaBox">
+                    <div class="area">
+                        <div class="location">
+                            <p>조직도</p>
+                            <h2 class="visualTitle">(주)동진전기통신</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 내용 -->
+        </main>
+        <!-- footer -->
+        <footer id="footer">
+            <div class="footer">
+                <div class="wrap">
+                    <div class="content">
+                        <div class="logo">
+                            <img src="../img/logo-white.png" alt="(주)동진전기통신">
+                        </div>
+                        <div class="con">
+                            <p>대구광역시 수성구 무학로 17길 33</p>
+                            <p>사업자등록번호 : 502-86-03846</p>
+                            <p>대표 : 김광수</p>
+                        </div>
+                        <div class="con">
+                            <p>대표전화 : 053-955-2244</p>
+                            <p>팩스번호 : 053-255-0538</p>
+                            <p>이메일 : djc2244@naver.com</p>
+                        </div>
+                    </div>
+                    <div class="copy">
+                        <p>Copyright by © DONJIN</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

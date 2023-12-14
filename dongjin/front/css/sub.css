@@ -1,0 +1,127 @@
+@charset "utf-8"; /* 페이지 위치 */
+.subVisual { position: relative; width: 100%; display: block; height: 750px; background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; } 
+
+.company { background: url(../img/sub/company.webp); } 
+.organization{background: url(../img/sub/organization.webp);}
+.subVisual .areaBox { display: block; position: relative; width: 100%; height: 100%; } 
+.subVisual .areaBox .area { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; max-width: 1440px; width: 100%; margin: 0 auto; height: 100%; gap: 20px; } 
+.subVisual .areaBox .area .location { display: flex; flex-direction: column; align-items: flex-start; gap: 20px; } 
+.subVisual .areaBox .area p { color: #FFF; font-family: SUITE; font-size: 20px; font-weight: 500; letter-spacing: -0.45px; } 
+.subVisual .areaBox .area .visualTitle { color: #FFF; font-family: SUITE; font-size: 50px; font-weight: 700; letter-spacing: -0.45px; } 
+
+
+/*contain01*/
+#contain01 { width: 100%; position: relative; padding: 100px 0; background-color: #fff; } 
+#contain01 .wrap { max-width: 1440px; width: 100%; margin: 0 auto; } 
+#contain01 .flex { display: flex; flex-direction: column; align-items: center; gap: 30px; } 
+#contain01 .subTitle { display: flex; flex-direction: column; align-items: center; gap: 15px; } 
+#contain01 .subTitle .tit { color: #727272; font-family: Pretendard; font-size: 18px; font-weight: 400; letter-spacing: -0.135px; } 
+#contain01 .subTitle .title { color: #000; font-family: Pretendard; font-size: 36px; font-weight: 900; letter-spacing: -0.27px; } 
+#contain01 .subTitle span { color: #727272; font-family: Pretendard; font-size: 18px; font-weight: 400; letter-spacing: -0.135px; } 
+#contain01 .titBox { padding: 10px 20px; background-color: #000; } 
+#contain01 .titBox p { font-size: 20px; color: #FFF; font-family: SUITE; font-weight: 600; text-align: center; line-height: 1.4; word-break: keep-all; } 
+#contain01 .subText { max-width: 550px; } 
+#contain01 .subText p { color: #666; text-align: center; font-family: Pretendard; font-size: 18px; font-weight: 500; line-height: 160%; letter-spacing: -0.75px; word-break: keep-all; } 
+#contain01 .subText p b{font-weight: 700;color:  #48794A;}
+#contain01 .profile { width: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; gap: 20px; } 
+#contain01 .profile .title .tit { color: #000; font-family: Pretendard; font-size: 30px; text-transform: uppercase; font-weight: 700; letter-spacing: -0.27px; text-align: center; } 
+#contain01 .profile .row { width: 100%; display: flex; flex-direction: row; align-items: center; } 
+#contain01 .profile .table { width: 100%; } 
+#contain01 .profile .img { margin: 0 auto; padding: 10px; text-align: center; } 
+#contain01 .profile .img img { width: 100%; } 
+#contain01 .profile .img p { color: #555; font-family: Pretendard; font-size: 16px; letter-spacing: -1.5px; font-weight: 600; text-align: center; } 
+#contain01 .profile .table .tbl { width: 100%; } 
+#contain01 .profile .table .tbl table { width: 100%; border-collapse: collapse; border-top: 2px solid #48794A; border-bottom: 2px solid #48794A; } 
+#contain01 .profile .table .tbl tbody { width: 100%; } 
+#contain01 .profile .table .tbl tbody tr { height: 100%; border-top: 1px solid #D1DFD2; } 
+#contain01 .profile .table .tbl tbody tr:first-child { border-top: none; } 
+#contain01 .profile .table .tbl tbody tr th { padding: 30px 20px; text-align: left; font-size: 20px; letter-spacing: -0.75px; font-weight: 700; color: #000; } 
+#contain01 .profile .table .tbl tbody tr td { font-size: 16px; padding: 30px 0; color: #555; letter-spacing: -0.5px; } 
+#contain01 .profile .table .tbl tbody tr td .text { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; } 
+
+
+
+/*contain02*/
+#contain02 { width: 100%; position: relative; padding: 100px 0; background-color: #f9f9f9; } 
+#contain02 .wrap { max-width: 1440px; width: 100%; margin: 0 auto; } 
+#contain02 .flex { display: flex; flex-direction: column; align-items: center; gap: 100px; } 
+#contain02 .subTitle .title { color: #000; font-family: Pretendard; font-size: 36px; font-weight: 900; letter-spacing: -0.27px; } 
+
+
+/* contain02 - 회사연혁 */
+.history-wrap { position: relative; } 
+.history-wrap:before { content: ""; height: 100%; width: 4px; border-radius: 6px; position: absolute; top: 12px; left: 278px; background: linear-gradient( to bottom, #CCCCCC1A, #ccc); } 
+.history-wrap > li { display: flex; gap: 135px; } 
+.history-wrap .year { font-family: SUIT; font-size: 22px; letter-spacing: 0; width: 270px; position: relative; font-weight: 900; color: #96bb98; } 
+.performance .year { font-size: 30px; color: #ddd; } 
+.history-wrap .year b { color: #00423a; } 
+.performance .year b { color: #727272; } 
+.history-wrap .year:before { content: ""; width: 144px; height: 2px; background-color: #00423a; position: absolute; top: 12px; right: 0; } 
+.history-wrap .year:after { content: ""; width: 20px; height: 20px; background-color: #fff; border: 5px solid #00423a; position: absolute; top: 2px; left: 100%; box-sizing: border-box; border-radius: 100%; z-index: 10; } 
+.performance .year:before { background-color: #727272; } 
+.performance .year:after { border: 5px solid #727272; } 
+.history-wrap .detail-history { margin-top: 2px; flex: 1; } 
+.history-wrap .detail-history > li { display: flex; gap: 42px; } 
+.performance .detail-history > li { display: flex; flex-direction: column; gap: 20px; } 
+.history-wrap .detail-history > li .date { font-family: SUITE; font-size: 18px; font-weight: 500; color: #00423A; width: 135px; padding-left: 34px; position: relative; margin-top: 4px; font-weight: 900; } 
+.performance .detail-history > li .date { font-family: SUITE; font-size: 18px; color: #000; position: relative; font-weight: 900; width: 100%; padding-left: 0; } 
+.performance .detail-history > li .desc { display: flex; flex-direction: column; gap: 10px; } 
+.performance .detail-history > li .desc b { font-size: 18px; font-family: SUITE; font-size: 18px; font-weight: 800; color: #555; } 
+.history-wrap .detail-history > li .desc p { font-size: 16px; letter-spacing: -0.05em; line-height: 1.6; font-weight: 600; } 
+.history-wrap .detail-history > li .desc small { font-size: 14px; font-weight: 500; letter-spacing: -0.75px; color: #727272; } 
+.history-wrap > li + li { margin-top: 160px; } 
+.detail-history > li + li { margin-top: 40px; } 
+
+
+
+
+
+
+
+
+
+/* 반응형 */
+@media screen and (max-width:1440px){
+ .subVisual .areaBox .area { padding: 0 10px; } 
+ /*contain01*/
+ #contain01 .wrap { padding: 0 10px; } 
+ /*contain02*/
+ /* contain02 - 회사연혁 */
+ .history-wrap { padding: 0 10px; } 
+ .history-wrap:before { left: 285px; } 
+ .history-wrap .year:before { display: none; } 
+ }
+
+ @media screen and (max-width:1200px) { /*contain02*/
+ /* contain02 - 회사연혁 */
+ .history-wrap .detail-history > li { flex-direction: column; gap: 10px; } 
+ .history-wrap:before { left: 287px; } 
+ .history-wrap .detail-history > li .date { padding-left: 0; } 
+ }
+
+@media screen and (max-width:1024px) { /*contain01*/
+ #contain01 .subText p { font-size: 16px; } 
+ #contain01 .profile .row { flex-direction: column; gap: 50px; } 
+ #contain01 .profile .img { padding: 0; } 
+ #contain01 .profile .img img { max-width: 550px; width: 100%; } 
+ }
+ @media screen and (max-width:768px) { /*contain02*/
+ /* contain02 - 회사연혁 */
+ .history-wrap > li { gap: 50px; } 
+ .history-wrap:before { left: 145px; } 
+ .history-wrap .year { width: 130px; text-align: right; padding-right: 30px; } 
+ .history-wrap .year:after { width: 12px; height: 12px; border-width: 3px; top: 14px; } 
+.history-wrap .detail-history { margin-top: 10px; } 
+ }
+
+ @media screen and (max-width:425px) { /*contain01*/
+ #contain01 .profile .table .tbl tbody tr th { font-size: 16px; } 
+ #contain01 .profile .table .tbl tbody tr td { font-size: 14px; } 
+ }
+
+ @media screen and (max-width:375px) { /*contain02*/
+ /* contain02 - 회사연혁 */
+ .history-wrap > li { gap: 50px; } 
+ .history-wrap:before { left:90px; } 
+ .history-wrap .year { width: 76px; } 
+ }

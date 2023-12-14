@@ -30,8 +30,8 @@ $(function(){
      }
  });
  $('.mlnb > li').each(function(){
-     var gnbArea = $(".mlnb > li");
-     var gnbLink = $(this).children('a');
+     let gnbArea = $(".mlnb > li");
+     let gnbLink = $(this).children('a');
      if($(this).children('ul').length > 0){
          gnbLink.on('click',function(e){
              e.preventDefault();
